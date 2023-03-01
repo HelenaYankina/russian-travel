@@ -1,21 +1,10 @@
 .lead {
   max-width: 984px;
-  min-height: 1005px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
   margin: 0 auto;
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .lead {
-    max-width: 928px;
-  }
-}
-@media (min-width: 426px) and (max-width: 768px) {
-  .lead {
-    max-width: 100%;
+    max-width: 928px; 
   }
 }

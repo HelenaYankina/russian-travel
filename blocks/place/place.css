@@ -4,3 +4,22 @@
   grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
   gap: 40px 26px;
 }
+
+@media screen and (max-width: 1024px) {
+  .place {
+    gap: 32px 27px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    gap: 28px 25px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    grid-template-columns: 1fr;
+    gap: 32px 25px;
+  }
+}

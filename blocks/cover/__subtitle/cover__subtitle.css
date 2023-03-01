@@ -8,3 +8,11 @@
   color: #FFFFFF;
   z-index: 1;
 }
+
+@media (max-width: 425px) {
+  .cover__subtitle {
+    width: 100%;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

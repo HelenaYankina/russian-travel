@@ -7,31 +7,28 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1280px) {
+@media (max-width: 1280px) {
   .header {
     max-width: 1184px;
     margin: 28px 48px 56px;
-
-
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1279px) {
   .header {
     max-width: 928px;
     margin: 28px 48px 48px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 1023px) {
   .header {
     max-width: 720px;
     margin: 28px 24px 48px;
   }
 }
 
-
-@media screen and (max-width: 320px) {
+@media (max-width: 727px) {
   .header {
     max-width: 288px;
     margin: 16px 16px 48px;

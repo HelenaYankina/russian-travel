@@ -11,3 +11,20 @@
 .footer__link:hover {
   opacity: 0.8;
 }
+
+@media (max-width: 1279px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 24px;    
+  }
+}
+
+@media (max-width: 767px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+  }
+}

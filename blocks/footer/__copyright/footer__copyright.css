@@ -3,7 +3,30 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
+  display: flex;
   text-align: right;
   margin: 0;
   padding: 0;
+}
+
+@media (max-width: 1279px) {
+  .footer__copyright {
+    margin-top: 2px;
+    
+  }
+}
+
+@media (max-width: 1023px) {
+  .footer__copyright {
+   margin-top: 2px;
+    
+  }
+}
+@media (max-width: 425px) {
+  .footer__copyright {
+    display: flex;
+    line-height: 14px;
+    text-align: right;
+    margin-right: 16px;
+  }
 }

@@ -4,21 +4,21 @@
   margin: 92px 0 92px 148px;
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1279px) {
   .intro {
     margin: 92px 0 92px 48px;
     
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 1023px) {
   .intro {
     margin: 88px 24px 88px;
     max-width: 720px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 727px) {
   .intro {
     margin: 64px 16px 64px;
     max-width: 288px;

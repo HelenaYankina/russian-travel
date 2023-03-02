@@ -7,5 +7,26 @@
   margin: 245px 312px 32px;
   color: #FFFFFF;
   z-index: 1;
-  max-width: 562px;
+  max-width: 560px;
+}
+
+@media (max-width: 1279px) {
+  .cover__title {
+    margin: 195px 232px 32px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .cover__title {
+    margin: 115px 104px 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cover__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 33px 16px 16px;
+  }
 }

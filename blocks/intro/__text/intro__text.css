@@ -6,7 +6,7 @@
   line-height: 26px;
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 727px) {
   .intro__text {
     margin: 0 0 34px;
   }

@@ -8,6 +8,7 @@
   text-decoration-line: none;
   margin: 0;
   margin-bottom: 12px;
+  text-transform: uppercase;
 }
 
 @media (max-width: 1279px) {

@@ -1,15 +1,15 @@
 .footer__links {
   display: flex;
   align-content: center;
-  list-style: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 @media (max-width: 767px) {
   .footer__links {
-    display: flex;
-    flex-direction: column;
-    margin-top: 64px;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 32px;
   }
 }

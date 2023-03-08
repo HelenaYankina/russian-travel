@@ -6,7 +6,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 29px;
+  line-height: 163%;
 }
 
 .place__paragraph:last-child {
@@ -22,7 +22,6 @@
 @media (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;
-    line-height: 26px;
     max-width: 352px;
     margin-bottom: 25px;
   }
@@ -30,7 +29,10 @@
 
 @media (max-width: 767px) {
   .place__paragraph {
-    margin-right: 16px;
+    max-width: calc(100% - 16px*2);
     margin-left: 16px;
+    margin-right: 16px;
   }
 }
+
+

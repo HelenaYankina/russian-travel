@@ -6,6 +6,7 @@
   list-style: none;
   text-align: right;
   padding-top: 18px;
+  column-gap: 18px;
 }
 
 @media (min-width: 727px) {

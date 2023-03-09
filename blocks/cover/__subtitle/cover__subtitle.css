@@ -9,7 +9,6 @@
   z-index: 1;
   max-width: 360px;
   width: 100%;
-  
 }
 
 @media (max-width: 767px) {
@@ -17,6 +16,6 @@
     max-width: 288px;
     font-size: 14px;
     line-height: 16px;
-    margin: 0 16px 33px;
+    margin: 0 16px;
   }
 }
